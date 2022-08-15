@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    background-color: #E5E5E5;
+    text-decoration: none;
+}
+
+textarea,
+textarea::placeholder {
+    color: #02416b;
+    font-size: 30px;
+}
+
+nav {
+    padding: 0 5%;
+}
+
+nav img {
+    margin-top: 2%
+}
+
+main {
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.campo-texto-entrada {
+    margin: 0 1%;
+}
+
+.campo-texto-resultado {
+    margin: 0 1%;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.103);
+    border-radius: 35px;
+}
+
+#entrada-texto {
+    width: 60vw;
+}
+
+#resultado-texto {
+    width: 20vw;
+    margin-top: -12vh;
+}
+
+textarea {
+    background-color: transparent;
+    resize: none;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+}
+
+#box-texto-entrada {
+    height: 57vh;
+}
+
+#box-texto-resultado {
+    height: 65vh;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    padding: 3vh 6vw;
+    margin: 6px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#btn-criptografar {
+    background-color: #0a3871;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#btn-descriptografar,
+#btn-copiar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0a3871;
+    font-size: 14px;
+}
+
+#box-texto-entrada {
+    border-radius: 15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.show-modal {
+    display: block;
+}
+
+.modal p {
+    display: inline-block;
+    margin-top: 40vh;
+    background-color: #2076df;
+    color: #e8edfc;
+    margin: inherit auto;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+}
+
+#mensagem-erro {
+    list-style: none;
+    font-size: 16px;
+    margin-left: 18%;
+}
+
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.social {
+    margin-top: 15px;
+}

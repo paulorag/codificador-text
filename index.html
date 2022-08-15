@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto - Challenger ONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src="img/alura.svg" alt="Logo da Alura">
+            </nav>
+        </header>
+
+        <main>
+            <section class="campo-texto-entrada" id="entrada-texto">
+                <textarea id="box-texto-entrada" placeholder="Digite seu texto" autofocus></textarea>
+                <ul id="mensagem-erro"></ul>
+
+                <div class="botoes">
+                    <button id="btn-criptografar">Criptografar</button>
+                    <button id="btn-descriptografar">Descriptografar</button>
+                </div>
+            </section>
+            <section class="campo-texto-resultado" id="resultado-texto">
+                <textarea id="box-texto-resultado" readonly></textarea>
+                <div class="botoes">
+                    <button id="btn-copiar">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>2022 &copy; - Desenvolvido por Paulo Roberto</p>
+            <div class="social">
+                <a href="https://github.com/paulorag" target="_blank"><img src="img/github.png" alt="Logo do GitHub"></a>
+            </div>
+        </footer>
+        <div id="modal-copiar" class="modal">
+            <p id="modal-copiar-texto"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</body>
+
+</html>
